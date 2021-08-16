@@ -36,6 +36,7 @@ class person():
 }\n'''
         file.write(string)
         file.close()
+        print('as dataframe\n' + data_frame + 'as .json file open ' + self.name + '.json')
 
 def get_info(name):
     info = []
