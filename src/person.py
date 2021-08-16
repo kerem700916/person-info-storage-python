@@ -36,7 +36,7 @@ class person():
 }\n'''
         file.write(string)
         file.close()
-        print('as dataframe\n' + data_frame + 'as .json file open ' + self.name + '.json')
+        print('as dataframe\n' + data_frame + '\nas .json file open ' + self.name + '.json')
 
 def get_info(name):
     info = []
@@ -45,6 +45,3 @@ def get_info(name):
     for d in data[name]:
         info.append(d)
     return info
-
-jack = person(name='kerem', age='20', sex='male', country='en', dad_name='mike', mom_name='helen', job='student', email='jackmail@gmail.com')
-print(get_info('kerem'))
