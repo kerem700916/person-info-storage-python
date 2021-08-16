@@ -23,7 +23,7 @@ the output file named jack.json
 input
 ```python
 from person import get_info
-info = get_info(jack)
+info = get_info('jack')
 print(info)
 ```
 output
